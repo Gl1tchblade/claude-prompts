@@ -1,9 +1,11 @@
 # Claude Code Prompts
 > [!IMPORTANT]
 > These prompts are designed to work effectively but please use them with caution and review any code you ship to production
+
 ## Prompts
 - [Multi-agent](https://github.com/Gl1tchblade/claude-prompts/blob/main/multi-agent.md)
 - More to come :)
+
 ## How to use
 1. Take a prompt you like and copy it like [Multi-agent](https://github.com/Gl1tchblade/claude-prompts/blob/main/multi-agent.md)
 2. Run the command `nano ./claude/commands/prompt-name.md` (For this example you would put multi-agent.md)
@@ -19,7 +21,9 @@
 ## Breakdown of prompts
 
 ### [Multi-agent](https://github.com/Gl1tchblade/claude-prompts/blob/main/multi-agent.md)
-The multi-agent prompt transforms Claude into an **Autonomous Orchestration Agent** that breaks down complex coding tasks into manageable sub-tasks and executes them in parallel. Here's how it works:
+The multi-agent prompt transforms Claude into an **Autonomous Orchestration Agent** that breaks down complex coding tasks into manageable sub-tasks and executes them in parallel.
+
+**Visual Workflow:** [View Multi-agent Flow Diagram](https://excalidraw.com/#json=csW9XdEk3_uNi6ZYTsD__,9Yz1U6oNy5XFnGOqLlQhCA)
 
 **Core Process:**
 1. **Task Analysis** - Analyzes your codebase and the complex task you've given it
